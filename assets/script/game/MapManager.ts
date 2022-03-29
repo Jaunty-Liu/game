@@ -204,4 +204,16 @@ export class MapManager extends Component {
         }
     }
 
+    // 请求在线图片文字
+    // onLoad(){
+    //     let xhr = new XMLHttpRequest();
+    //     xhr.onreadystatechange = function () {
+    //         if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
+    //             var response = xhr.responseText;
+    //             Constants.talkTable = JSON.parse(response).data.rubbish;
+    //         }
+    //     };
+    //     xhr.open("GET", 'https://goss.tgucsdn.com/frontService/sort/getRubbishName/%E5%8E%A8%E4%BD%99%E5%9E%83%E5%9C%BE/%E5%A4%A9%E6%B4%A5', true);
+    //     xhr.send();
+    // }
 }
