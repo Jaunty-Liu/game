@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "56c57904-32bc-4760-9701-6b79ecef0642",
+  "files": [],
+  "subMetas": {
+    "9c083": {
+      "importer": "gltf-mesh",
+      "uuid": "56c57904-32bc-4760-9701-6b79ecef0642@9c083",
+      "displayName": "",
+      "id": "9c083",
+      "name": "forest00.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c2a6": {
+      "importer": "gltf-embeded-image",
+      "uuid": "56c57904-32bc-4760-9701-6b79ecef0642@0c2a6",
+      "displayName": "",
+      "id": "0c2a6",
+      "name": "map.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "908ad": {
+      "importer": "texture",
+      "uuid": "56c57904-32bc-4760-9701-6b79ecef0642@908ad",
+      "displayName": "",
+      "id": "908ad",
+      "name": "map.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "56c57904-32bc-4760-9701-6b79ecef0642@0c2a6"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c372b": {
+      "importer": "gltf-material",
+      "uuid": "56c57904-32bc-4760-9701-6b79ecef0642@c372b",
+      "displayName": "",
+      "id": "c372b",
+      "name": "Material #88.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "77f0d": {
+      "importer": "gltf-scene",
+      "uuid": "56c57904-32bc-4760-9701-6b79ecef0642@77f0d",
+      "displayName": "",
+      "id": "77f0d",
+      "name": "forest00.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "map",
+        "uri": "56c57904-32bc-4760-9701-6b79ecef0642@0c2a6"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "56c57904-32bc-4760-9701-6b79ecef0642@77f0d",
+    "assetFinder": {
+      "meshes": [
+        "56c57904-32bc-4760-9701-6b79ecef0642@9c083"
+      ],
+      "skeletons": [],
+      "textures": [
+        "56c57904-32bc-4760-9701-6b79ecef0642@908ad"
+      ],
+      "materials": [
+        "56c57904-32bc-4760-9701-6b79ecef0642@c372b"
+      ],
+      "scenes": [
+        "56c57904-32bc-4760-9701-6b79ecef0642@77f0d"
+      ]
+    }
+  }
+}

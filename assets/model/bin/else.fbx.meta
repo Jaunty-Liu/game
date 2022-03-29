@@ -1,0 +1,109 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "923eb411-fef7-4b0f-b934-d16abf68578c",
+  "files": [],
+  "subMetas": {
+    "6e578": {
+      "importer": "gltf-mesh",
+      "uuid": "923eb411-fef7-4b0f-b934-d16abf68578c@6e578",
+      "displayName": "",
+      "id": "6e578",
+      "name": "10019.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d9f19": {
+      "importer": "gltf-embeded-image",
+      "uuid": "923eb411-fef7-4b0f-b934-d16abf68578c@d9f19",
+      "displayName": "",
+      "id": "d9f19",
+      "name": "贴图 #126.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f430d": {
+      "importer": "texture",
+      "uuid": "923eb411-fef7-4b0f-b934-d16abf68578c@f430d",
+      "displayName": "",
+      "id": "f430d",
+      "name": "贴图 #126.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "923eb411-fef7-4b0f-b934-d16abf68578c@d9f19"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "95dd5": {
+      "importer": "gltf-scene",
+      "uuid": "923eb411-fef7-4b0f-b934-d16abf68578c@95dd5",
+      "displayName": "",
+      "id": "95dd5",
+      "name": "else.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #126",
+        "uri": "923eb411-fef7-4b0f-b934-d16abf68578c@d9f19"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "923eb411-fef7-4b0f-b934-d16abf68578c@95dd5",
+    "assetFinder": {
+      "meshes": [
+        "923eb411-fef7-4b0f-b934-d16abf68578c@6e578"
+      ],
+      "skeletons": [],
+      "textures": [
+        "923eb411-fef7-4b0f-b934-d16abf68578c@f430d"
+      ],
+      "materials": [
+        "5a258fef-3c3c-4c89-ab44-fb421ff4df24"
+      ],
+      "scenes": [
+        "923eb411-fef7-4b0f-b934-d16abf68578c@95dd5"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model/bin/Materials_else"
+  }
+}

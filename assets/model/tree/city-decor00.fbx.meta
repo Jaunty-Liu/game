@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7bbeb01a-4187-455a-bed7-460c88603189",
+  "files": [],
+  "subMetas": {
+    "ba1eb": {
+      "importer": "gltf-mesh",
+      "uuid": "7bbeb01a-4187-455a-bed7-460c88603189@ba1eb",
+      "displayName": "",
+      "id": "ba1eb",
+      "name": "city-decor00.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c2a6": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7bbeb01a-4187-455a-bed7-460c88603189@0c2a6",
+      "displayName": "",
+      "id": "0c2a6",
+      "name": "map.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "908ad": {
+      "importer": "texture",
+      "uuid": "7bbeb01a-4187-455a-bed7-460c88603189@908ad",
+      "displayName": "",
+      "id": "908ad",
+      "name": "map.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7bbeb01a-4187-455a-bed7-460c88603189@0c2a6"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cabe3": {
+      "importer": "gltf-material",
+      "uuid": "7bbeb01a-4187-455a-bed7-460c88603189@cabe3",
+      "displayName": "",
+      "id": "cabe3",
+      "name": "Material #92.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b32b": {
+      "importer": "gltf-scene",
+      "uuid": "7bbeb01a-4187-455a-bed7-460c88603189@8b32b",
+      "displayName": "",
+      "id": "8b32b",
+      "name": "city-decor00.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "map",
+        "uri": "7bbeb01a-4187-455a-bed7-460c88603189@0c2a6"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "7bbeb01a-4187-455a-bed7-460c88603189@8b32b",
+    "assetFinder": {
+      "meshes": [
+        "7bbeb01a-4187-455a-bed7-460c88603189@ba1eb"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7bbeb01a-4187-455a-bed7-460c88603189@908ad"
+      ],
+      "materials": [
+        "7bbeb01a-4187-455a-bed7-460c88603189@cabe3"
+      ],
+      "scenes": [
+        "7bbeb01a-4187-455a-bed7-460c88603189@8b32b"
+      ]
+    }
+  }
+}
