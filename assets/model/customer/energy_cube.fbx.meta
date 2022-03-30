@@ -1,0 +1,62 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297",
+  "files": [],
+  "subMetas": {
+    "e2349": {
+      "importer": "gltf-mesh",
+      "uuid": "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297@e2349",
+      "displayName": "",
+      "id": "e2349",
+      "name": "Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2d77": {
+      "importer": "gltf-scene",
+      "uuid": "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297@e2d77",
+      "displayName": "",
+      "id": "e2d77",
+      "name": "energy_cube.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297@e2d77",
+    "assetFinder": {
+      "meshes": [
+        "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297@e2349"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7a74ca07-d499-482c-bc29-907b93a350d1"
+      ],
+      "scenes": [
+        "b3f9bbc0-d28d-4df3-bf86-0e5987ad8297@e2d77"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model/customer/Materials_energy_cube"
+  }
+}

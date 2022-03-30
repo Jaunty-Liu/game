@@ -40,6 +40,7 @@ interface IPlayerInfo {
 @ccclass("PlayerData")
 export class PlayerData {
     public playerInfo: IPlayerInfo = { money: 0, level: 1 };
+    public userId: number = 0;
 
     static _instance: PlayerData = null!;
     public static instance() {
@@ -56,10 +57,20 @@ export class PlayerData {
             this.playerInfo = JSON.parse(info);
         }
     }
+    // 用户ID
+    public setId(n: number){
+        this.userId = n;
+    }
 
     public passLevel(rewardMoney: number){
         this.playerInfo.level ++;
         this.playerInfo.money += rewardMoney;
+        console.log("rewardMoney");
+        console.log(rewardMoney);
+        console.log("this.playerInfo.money");
+        console.log(this.playerInfo.money);
+        console.log("userId");
+        console.log(this.userId);
         this.savePlayerInfoToCache();
     }
 

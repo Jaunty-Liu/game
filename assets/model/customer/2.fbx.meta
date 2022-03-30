@@ -1,0 +1,102 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ec766": {
+      "importer": "gltf-mesh",
+      "uuid": "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@ec766",
+      "displayName": "",
+      "id": "ec766",
+      "name": "droids_3.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "30b18": {
+      "importer": "gltf-scene",
+      "uuid": "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@30b18",
+      "displayName": "",
+      "id": "30b18",
+      "name": "2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@30b18",
+    "assetFinder": {
+      "meshes": [
+        "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@ec766"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "eb295a32-29f2-44f7-8bb2-f5eed116a2ef"
+      ],
+      "scenes": [
+        "09e1d7ba-9b37-45cb-81ee-35dd5ee7edae@30b18"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model/customer/Materials_2"
+  }
+}

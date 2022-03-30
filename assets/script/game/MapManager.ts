@@ -5,12 +5,14 @@ import { ResUtil } from "../data/ResUtil";
 import { PoolManager } from "../data/PoolManager";
 import { RoadPoint } from "./RoadPoint";
 import { Constants } from "../data/Constants";
+import { RunTimeData, PlayerData } from "../data/GameData";
 const { ccclass, property } = _decorator;
 
 type DicPrefab = { [name: string]: Prefab };
 
 @ccclass("MapManager")
 export class MapManager extends Component {
+    public userId: number = 0;
     public currPath: Node[] = [];
     public maxProgress = 0;
 
@@ -204,8 +206,8 @@ export class MapManager extends Component {
         }
     }
 
-    // 请求在线图片文字
-    // onLoad(){
+    onLoad(){
+        // 请求在线图片文字
     //     let xhr = new XMLHttpRequest();
     //     xhr.onreadystatechange = function () {
     //         if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
@@ -215,5 +217,8 @@ export class MapManager extends Component {
     //     };
     //     xhr.open("GET", 'https://goss.tgucsdn.com/frontService/sort/getRubbishName/%E5%8E%A8%E4%BD%99%E5%9E%83%E5%9C%BE/%E5%A4%A9%E6%B4%A5', true);
     //     xhr.send();
-    // }
+
+        // 获取用户id
+        PlayerData.setId(this.userId);
+    }
 }
