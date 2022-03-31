@@ -219,6 +219,6 @@ export class MapManager extends Component {
     //     xhr.send();
 
         // 获取用户id
-        PlayerData.setId(this.userId);
+        new PlayerData().setId(this.userId);
     }
 }

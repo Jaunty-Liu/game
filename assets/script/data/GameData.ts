@@ -65,12 +65,17 @@ export class PlayerData {
     public passLevel(rewardMoney: number){
         this.playerInfo.level ++;
         this.playerInfo.money += rewardMoney;
-        console.log("rewardMoney");
-        console.log(rewardMoney);
-        console.log("this.playerInfo.money");
-        console.log(this.playerInfo.money);
-        console.log("userId");
-        console.log(this.userId);
+        // let xhr = new XMLHttpRequest();
+        // xhr.onreadystatechange = function () {
+        //     if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
+        //         var response = xhr.responseText;
+        //         console.log("response");
+        //         console.log(response);
+        //     }
+        // };
+        // var url = 'https://goss.tgucsdn.com/frontService/game-question-offline/updateScore/'+ this.userId + '/' + this.playerInfo.money;
+        // xhr.open("POST", url, true);
+        // xhr.send();
         this.savePlayerInfoToCache();
     }
 

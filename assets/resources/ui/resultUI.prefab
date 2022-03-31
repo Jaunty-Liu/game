@@ -1625,7 +1625,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -1807,7 +1807,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "点击领取",
+    "_string": "点击记录",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
